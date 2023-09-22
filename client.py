@@ -5,9 +5,6 @@
 import socket
 import threading
 
-shipBoard = ["▢"*10 for i in range(0,10)]
-guessBoard = ["▢"*10 for j in range(0,10)]
-
 hostorjoin = input("Host a Server or Connect (H to Host, C to Connect): ")
 
 nickname = input("Enter Nickname: ")
